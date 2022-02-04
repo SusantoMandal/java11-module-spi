@@ -22,7 +22,7 @@ $ mvn compile
 ```
 
 ### 3. Run the program
-Simply run the shell command present in the root folder.
+Simply run the shell script present in the root folder.
 
 ```bash
 # Run the program
