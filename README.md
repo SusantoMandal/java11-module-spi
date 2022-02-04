@@ -24,7 +24,7 @@ $ cd java11-module-spi
 Use maven to compile this project
 ```bash
 # Compile the program
-$ mvn compile
+$ mvn clean compile
 ```
 
 ### 3. Run the program
