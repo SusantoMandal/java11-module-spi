@@ -14,6 +14,13 @@ $ cd java11-module-spi
 
 ``` 
 
+### 3. Compile the Project
+Use maven to compile this project
+```bash
+# Compile the program
+$ mvn compile
+```
+
 ### 2. Run the program
 Simply run the shell command present in the root folder.
 
