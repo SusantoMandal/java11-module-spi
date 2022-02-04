@@ -4,6 +4,12 @@ This is a maven project which uses modules to communicate  with each other.
 
 ## Getting Started
 
+### Prerequisites
+- Before proceeding with this part, your local development machine must have the following installed:
+  - GIT CLI - To clone this repository
+  - pre install jdk 11 and set it's path in system environment variable.
+  - pre install maven and set it's path in system environment variable.
+
 ### 1. Cloning the repository
 ```bash
 # Clone the Repo
