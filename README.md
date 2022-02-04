@@ -31,7 +31,7 @@ $ ./run-module.sh
 
 ## Introduction
 ### Parent POM
-There is a single parent pom in a root folder which has 3 modules
+There is a single parent pom in a root folder which has 3 child modules
 - api
 - gui
 - impl
@@ -45,7 +45,7 @@ In this module, there is a single class `Backend.java` which has a interface tha
 This module is going to provide the body for `Service Provider Interface`. It has only one class `Middleware.java` right now which act as a `Service Provider`.
 
 #### 3. GUI Module
-It is `ServiceLoader` class which loads API module and uses it.
+It is `ServiceLoader` class which loads API module and uses it in `Frontend.java`
 
 
 
