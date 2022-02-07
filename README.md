@@ -1,6 +1,6 @@
 # Maven project for Module with SPI
 
-This is a maven project which uses modules to communicate  with each other.
+This is a maven project which uses modules to communicate  with each other and implement SPI (Service Provider Interface).
 
 ## Getting Started
 
@@ -37,21 +37,21 @@ $ ./run-module.sh
 
 ## Introduction
 ### Parent POM
-There is a single parent pom in a root folder which has 3 child modules
-- api
-- gui
-- impl
+There is a single parent pom with artifactID `my-parent` in a root folder which has 3 child modules
+- serviceProviderInterface
+- serviceLoader
+- serviceProvider
 
 ### Child POM
 
-#### 1. API Module
-In this module, there is a single class `Backend.java` which has a interface that is going to use as a `Service Provider Interface`
+#### 1. serviceProviderInterface Module
+In this module, there is a single interface `Vehicle.java` which is going to use as a `Service Provider Interface`
 
-#### 2. IMPLEMENTATION Module
-This module is going to provide the body for `Service Provider Interface`. It has only one class `Middleware.java` right now which act as a `Service Provider`.
+#### 2. serviceProvider Module
+This module is going to provide the implementation for `Service Provider Interface`. It has only three implementation classes `Bike.java`, `Car.java`, `Truck.java` which act as a `Service Provider`.
 
-#### 3. GUI Module
-It is `ServiceLoader` class which loads API module and uses it in `Frontend.java`
+#### 3. serviceLoader Module
+This is a Java SPI main class that is used to load the services for a service provider interface and it is used in `VehicleShowroom.java`.
 
 
 

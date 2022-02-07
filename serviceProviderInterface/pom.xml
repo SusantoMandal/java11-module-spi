@@ -8,28 +8,18 @@
     <version>1.0</version>
   </parent>
 
-  <!-- <properties>
-    <main.basedir>${project.parent.basedir}</main.basedir>
-  </properties> -->
-
-  <artifactId>impl</artifactId>
+  <artifactId>serviceProviderInterface</artifactId>
   <packaging>jar</packaging>
-  <name>Implement project</name>
+  <name>Service Provider Interface project</name>
 
    <dependencies>
-   <dependency>
-      <groupId>org.example</groupId>
-      <artifactId>api</artifactId>
-      <version>1.0</version>
-    </dependency>
     <!-- 
       ...
     -->
   </dependencies> 
-
-<!-- 
-<build>
-    <outputDirectory>D:\java\module-maven\my-parent\api\target\classes</outputDirectory>
-</build> -->
+  
+    <!-- 
+      ...
+    -->
 
 </project>

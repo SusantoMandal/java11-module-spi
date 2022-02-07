@@ -9,14 +9,14 @@
     <artifactId>my-parent</artifactId>
     <version>1.0</version>
   </parent>
-  <artifactId>gui</artifactId>
+  <artifactId>serviceLoader</artifactId>
   <packaging>jar</packaging>
-  <name>GUI project</name>
+  <name>serviceLoader project</name>
   
   <dependencies>
     <dependency>
       <groupId>org.example</groupId>
-      <artifactId>api</artifactId>
+      <artifactId>serviceProviderInterface</artifactId>
       <version>1.0</version>
     </dependency>
 

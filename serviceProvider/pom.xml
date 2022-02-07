@@ -8,18 +8,19 @@
     <version>1.0</version>
   </parent>
 
-  <artifactId>api</artifactId>
+  <artifactId>serviceProvider</artifactId>
   <packaging>jar</packaging>
-  <name>API project</name>
+  <name>serviceProvider project</name>
 
    <dependencies>
+   <dependency>
+      <groupId>org.example</groupId>
+      <artifactId>serviceProviderInterface</artifactId>
+      <version>1.0</version>
+    </dependency>
     <!-- 
       ...
     -->
   </dependencies> 
-  
-    <!-- 
-      ...
-    -->
 
 </project>
